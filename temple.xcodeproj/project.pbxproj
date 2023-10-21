@@ -1,0 +1,638 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		89DB02FE2AE43C0100DB3125 /* templeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89DB02FD2AE43C0100DB3125 /* templeApp.swift */; };
+		89DB03002AE43C0100DB3125 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89DB02FF2AE43C0100DB3125 /* Persistence.swift */; };
+		89DB03032AE43C0100DB3125 /* temple.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 89DB03012AE43C0100DB3125 /* temple.xcdatamodeld */; };
+		89DB03052AE43C0100DB3125 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89DB03042AE43C0100DB3125 /* ContentView.swift */; };
+		89DB03072AE43C0200DB3125 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 89DB03062AE43C0200DB3125 /* Assets.xcassets */; };
+		89DB030B2AE43C0200DB3125 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 89DB030A2AE43C0200DB3125 /* Preview Assets.xcassets */; };
+		89DB03152AE43C0200DB3125 /* templeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89DB03142AE43C0200DB3125 /* templeTests.swift */; };
+		89DB031F2AE43C0200DB3125 /* templeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89DB031E2AE43C0200DB3125 /* templeUITests.swift */; };
+		89DB03212AE43C0200DB3125 /* templeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89DB03202AE43C0200DB3125 /* templeUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		89DB03112AE43C0200DB3125 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 89DB02F22AE43C0100DB3125 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 89DB02F92AE43C0100DB3125;
+			remoteInfo = temple;
+		};
+		89DB031B2AE43C0200DB3125 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 89DB02F22AE43C0100DB3125 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 89DB02F92AE43C0100DB3125;
+			remoteInfo = temple;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		89DB02FA2AE43C0100DB3125 /* temple.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = temple.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		89DB02FD2AE43C0100DB3125 /* templeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = templeApp.swift; sourceTree = "<group>"; };
+		89DB02FF2AE43C0100DB3125 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		89DB03022AE43C0100DB3125 /* temple.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = temple.xcdatamodel; sourceTree = "<group>"; };
+		89DB03042AE43C0100DB3125 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		89DB03062AE43C0200DB3125 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		89DB03082AE43C0200DB3125 /* temple.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = temple.entitlements; sourceTree = "<group>"; };
+		89DB030A2AE43C0200DB3125 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		89DB03102AE43C0200DB3125 /* templeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = templeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		89DB03142AE43C0200DB3125 /* templeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = templeTests.swift; sourceTree = "<group>"; };
+		89DB031A2AE43C0200DB3125 /* templeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = templeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		89DB031E2AE43C0200DB3125 /* templeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = templeUITests.swift; sourceTree = "<group>"; };
+		89DB03202AE43C0200DB3125 /* templeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = templeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		89DB02F72AE43C0100DB3125 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		89DB030D2AE43C0200DB3125 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		89DB03172AE43C0200DB3125 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		89DB02F12AE43C0100DB3125 = {
+			isa = PBXGroup;
+			children = (
+				89DB02FC2AE43C0100DB3125 /* temple */,
+				89DB03132AE43C0200DB3125 /* templeTests */,
+				89DB031D2AE43C0200DB3125 /* templeUITests */,
+				89DB02FB2AE43C0100DB3125 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		89DB02FB2AE43C0100DB3125 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				89DB02FA2AE43C0100DB3125 /* temple.app */,
+				89DB03102AE43C0200DB3125 /* templeTests.xctest */,
+				89DB031A2AE43C0200DB3125 /* templeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		89DB02FC2AE43C0100DB3125 /* temple */ = {
+			isa = PBXGroup;
+			children = (
+				89DB02FD2AE43C0100DB3125 /* templeApp.swift */,
+				89DB02FF2AE43C0100DB3125 /* Persistence.swift */,
+				89DB03042AE43C0100DB3125 /* ContentView.swift */,
+				89DB03062AE43C0200DB3125 /* Assets.xcassets */,
+				89DB03082AE43C0200DB3125 /* temple.entitlements */,
+				89DB03012AE43C0100DB3125 /* temple.xcdatamodeld */,
+				89DB03092AE43C0200DB3125 /* Preview Content */,
+			);
+			path = temple;
+			sourceTree = "<group>";
+		};
+		89DB03092AE43C0200DB3125 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				89DB030A2AE43C0200DB3125 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		89DB03132AE43C0200DB3125 /* templeTests */ = {
+			isa = PBXGroup;
+			children = (
+				89DB03142AE43C0200DB3125 /* templeTests.swift */,
+			);
+			path = templeTests;
+			sourceTree = "<group>";
+		};
+		89DB031D2AE43C0200DB3125 /* templeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				89DB031E2AE43C0200DB3125 /* templeUITests.swift */,
+				89DB03202AE43C0200DB3125 /* templeUITestsLaunchTests.swift */,
+			);
+			path = templeUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		89DB02F92AE43C0100DB3125 /* temple */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 89DB03242AE43C0200DB3125 /* Build configuration list for PBXNativeTarget "temple" */;
+			buildPhases = (
+				89DB02F62AE43C0100DB3125 /* Sources */,
+				89DB02F72AE43C0100DB3125 /* Frameworks */,
+				89DB02F82AE43C0100DB3125 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = temple;
+			productName = temple;
+			productReference = 89DB02FA2AE43C0100DB3125 /* temple.app */;
+			productType = "com.apple.product-type.application";
+		};
+		89DB030F2AE43C0200DB3125 /* templeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 89DB03272AE43C0200DB3125 /* Build configuration list for PBXNativeTarget "templeTests" */;
+			buildPhases = (
+				89DB030C2AE43C0200DB3125 /* Sources */,
+				89DB030D2AE43C0200DB3125 /* Frameworks */,
+				89DB030E2AE43C0200DB3125 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				89DB03122AE43C0200DB3125 /* PBXTargetDependency */,
+			);
+			name = templeTests;
+			productName = templeTests;
+			productReference = 89DB03102AE43C0200DB3125 /* templeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		89DB03192AE43C0200DB3125 /* templeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 89DB032A2AE43C0200DB3125 /* Build configuration list for PBXNativeTarget "templeUITests" */;
+			buildPhases = (
+				89DB03162AE43C0200DB3125 /* Sources */,
+				89DB03172AE43C0200DB3125 /* Frameworks */,
+				89DB03182AE43C0200DB3125 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				89DB031C2AE43C0200DB3125 /* PBXTargetDependency */,
+			);
+			name = templeUITests;
+			productName = templeUITests;
+			productReference = 89DB031A2AE43C0200DB3125 /* templeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		89DB02F22AE43C0100DB3125 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					89DB02F92AE43C0100DB3125 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					89DB030F2AE43C0200DB3125 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 89DB02F92AE43C0100DB3125;
+					};
+					89DB03192AE43C0200DB3125 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 89DB02F92AE43C0100DB3125;
+					};
+				};
+			};
+			buildConfigurationList = 89DB02F52AE43C0100DB3125 /* Build configuration list for PBXProject "temple" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 89DB02F12AE43C0100DB3125;
+			productRefGroup = 89DB02FB2AE43C0100DB3125 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				89DB02F92AE43C0100DB3125 /* temple */,
+				89DB030F2AE43C0200DB3125 /* templeTests */,
+				89DB03192AE43C0200DB3125 /* templeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		89DB02F82AE43C0100DB3125 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89DB030B2AE43C0200DB3125 /* Preview Assets.xcassets in Resources */,
+				89DB03072AE43C0200DB3125 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		89DB030E2AE43C0200DB3125 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		89DB03182AE43C0200DB3125 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		89DB02F62AE43C0100DB3125 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89DB03032AE43C0100DB3125 /* temple.xcdatamodeld in Sources */,
+				89DB02FE2AE43C0100DB3125 /* templeApp.swift in Sources */,
+				89DB03052AE43C0100DB3125 /* ContentView.swift in Sources */,
+				89DB03002AE43C0100DB3125 /* Persistence.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		89DB030C2AE43C0200DB3125 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89DB03152AE43C0200DB3125 /* templeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		89DB03162AE43C0200DB3125 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89DB031F2AE43C0200DB3125 /* templeUITests.swift in Sources */,
+				89DB03212AE43C0200DB3125 /* templeUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		89DB03122AE43C0200DB3125 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 89DB02F92AE43C0100DB3125 /* temple */;
+			targetProxy = 89DB03112AE43C0200DB3125 /* PBXContainerItemProxy */;
+		};
+		89DB031C2AE43C0200DB3125 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 89DB02F92AE43C0100DB3125 /* temple */;
+			targetProxy = 89DB031B2AE43C0200DB3125 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		89DB03222AE43C0200DB3125 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		89DB03232AE43C0200DB3125 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		89DB03252AE43C0200DB3125 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = temple/temple.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"temple/Preview Content\"";
+				DEVELOPMENT_TEAM = 658XP6F6MN;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = inquisitev.temple;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		89DB03262AE43C0200DB3125 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = temple/temple.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"temple/Preview Content\"";
+				DEVELOPMENT_TEAM = 658XP6F6MN;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = inquisitev.temple;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		89DB03282AE43C0200DB3125 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 658XP6F6MN;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = inquisitev.templeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/temple.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/temple";
+			};
+			name = Debug;
+		};
+		89DB03292AE43C0200DB3125 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 658XP6F6MN;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = inquisitev.templeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/temple.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/temple";
+			};
+			name = Release;
+		};
+		89DB032B2AE43C0200DB3125 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 658XP6F6MN;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = inquisitev.templeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = temple;
+			};
+			name = Debug;
+		};
+		89DB032C2AE43C0200DB3125 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 658XP6F6MN;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = inquisitev.templeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = temple;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		89DB02F52AE43C0100DB3125 /* Build configuration list for PBXProject "temple" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				89DB03222AE43C0200DB3125 /* Debug */,
+				89DB03232AE43C0200DB3125 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		89DB03242AE43C0200DB3125 /* Build configuration list for PBXNativeTarget "temple" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				89DB03252AE43C0200DB3125 /* Debug */,
+				89DB03262AE43C0200DB3125 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		89DB03272AE43C0200DB3125 /* Build configuration list for PBXNativeTarget "templeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				89DB03282AE43C0200DB3125 /* Debug */,
+				89DB03292AE43C0200DB3125 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		89DB032A2AE43C0200DB3125 /* Build configuration list for PBXNativeTarget "templeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				89DB032B2AE43C0200DB3125 /* Debug */,
+				89DB032C2AE43C0200DB3125 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		89DB03012AE43C0100DB3125 /* temple.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				89DB03022AE43C0100DB3125 /* temple.xcdatamodel */,
+			);
+			currentVersion = 89DB03022AE43C0100DB3125 /* temple.xcdatamodel */;
+			path = temple.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 89DB02F22AE43C0100DB3125 /* Project object */;
+}
